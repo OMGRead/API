@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API WOWRead",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMGRead/API.git"
+  },
+  "author": "= <remirobert33530@gmail.com> (remirobert.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OMGRead/API/issues"
+  },
+  "homepage": "https://github.com/OMGRead/API#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "minimist": "^1.2.0",
+    "parse": "^1.8.1",
+    "parse-server": "^2.2.0",
+    "path": "^0.12.7"
+  }
+}
