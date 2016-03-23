@@ -8,7 +8,12 @@ var common_conf = {
   version: "0.0.1",
   cloudCode: __dirname + '/cloud/main.js',
   appId: "63966E18-33C1-431B-A50E-4F68652C2A4D",
-  masterKey: "5B45972F-36B7-4FBB-85A0-B2EA733586CD"
+  masterKey: "5B45972F-36B7-4FBB-85A0-B2EA733586CD",
+  oauth: {
+   facebook: {
+     appIds: "1134000179943985"
+   }
+  }
 };
 
 var conf = {

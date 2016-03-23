@@ -8,7 +8,8 @@ var api = new ParseServer({
   cloud: config.common_conf.cloudCode,
   appId: config.common_conf.appId,
   masterKey: config.common_conf.masterKey,
-  serverURL: config.config.serverURL
+  serverURL: config.config.serverURL,
+  oauth: config.config.oauth
 });
 
 var app = express();
