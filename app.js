@@ -18,7 +18,7 @@ app.use('/public', express.static(path.join(__dirname, '/public')));
 app.use('/parse', api);
 
 app.get('/', function(req, res) {
-  res.status(200).send('OMGRead API');
+  res.status(200).send('WOWRead API');
 });
 
 app.listen(config.config.port, function() {

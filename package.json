@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/OMGRead/API#readme",
   "dependencies": {
+    "amazon-product-api": "^0.3.9",
+    "amazonscraper": "0.0.0",
+    "config.json": "0.0.4",
     "express": "^4.13.4",
     "minimist": "^1.2.0",
+    "node-isbn-catalogue": "^1.2.3",
     "parse": "^1.8.1",
     "parse-server": "^2.2.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.69.0"
   }
 }

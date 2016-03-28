@@ -1,5 +1,6 @@
 "use_strict";
 
+var auth = require('config.json')('./auth.json');
 var argv = require('minimist')(process.argv.slice(2));
 var environement = argv.env || 'test';
 
@@ -7,11 +8,11 @@ var common_conf = {
   name: "OMGRead",
   version: "0.0.1",
   cloudCode: __dirname + '/cloud/main.js',
-  appId: "63966E18-33C1-431B-A50E-4F68652C2A4D",
-  masterKey: "5B45972F-36B7-4FBB-85A0-B2EA733586CD",
+  appId: auth.appId,
+  masterKey: auth.masterKey,
   oauth: {
    facebook: {
-     appIds: "1134000179943985"
+     appIds: auth.facebookAppIds
    }
   }
 };
