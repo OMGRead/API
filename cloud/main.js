@@ -30,8 +30,8 @@ var findBook = function(code, callBack) {
   console.log("find book for code " + code);
   var client = amazon.createClient({
     awsTag: "abc",
-    awsId: "AKIAJ53OS2PXZP54N2LA",
-    awsSecret: "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"
+    awsId: auth.awsId,
+    awsSecret: auth.awsSecret
   });
 
   client.itemLookup({
